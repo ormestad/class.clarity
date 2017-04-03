@@ -1,7 +1,7 @@
 <?php
 require('config.php');
 require('class.clarity.php');
-$clarity=new Clarity("https://genologics.scilifelab.se/api/v2/",$CONFIG['clarity']['user'],$CONFIG['clarity']['pass']);
+$clarity=new Clarity($CONFIG['clarity']['uri'],$CONFIG['clarity']['user'],$CONFIG['clarity']['pass']);
 $project=$clarity->getEntity("projects/P7601");
 ?>
 

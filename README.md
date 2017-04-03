@@ -8,7 +8,8 @@ Requires config file, `config.php` with credentials for accessing LIMS API:
 	$CONFIG=array(
 		'clarity'	=> array(
 				'user' 		=> '', 
-				'pass' 		=> ''
+				'pass' 		=> '',
+				'uri' 		=> ''
 			)
 	);
 	?>
